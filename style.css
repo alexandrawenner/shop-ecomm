@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
     margin: 0;
@@ -47,7 +47,7 @@ body {
     width: 100%;
 }
 
-/*Header CSS*/
+/*Header and Navbar*/
 
 #header {
     display: flex;
@@ -56,6 +56,10 @@ body {
     padding: 20px  80px;
     background-color: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 #navbar {
@@ -92,4 +96,37 @@ body {
     position: absolute;
     bottom: -4px;
     left: 20px;
+}
+
+/*Home Page*/
+#hero {
+    background-image: url("image/hero4.jpeg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+}
+
+#hero h1 {
+    color: rgb(253, 254, 176);
+}
+
+#hero button {
+    background-image: url("image/button.png");
+    background-color: transparent;
+    color: rgb(253, 254, 176);
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
 }
