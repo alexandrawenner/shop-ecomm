@@ -693,6 +693,7 @@ footer .copyright {
 
 #page-header.contact-header {
     background-image: url("image/banner/b21.webp");
+    background-size: cover;
 }
 
 #page-header h2.contact-h2,
