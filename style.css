@@ -697,7 +697,7 @@ footer .copyright {
 
 #page-header h2.contact-h2,
 #page-header p.contact-p {
-    color: rgb(255, 175, 209);
+    color: rgb(248, 148, 189);
 }
 
 #contact-details {
@@ -916,7 +916,19 @@ footer .copyright {
     #newsletter .form {
         width: 70%;
     }
+
+    /************CONTACT PAGE***********/
+
+    #form-details {
+        padding: 40px;
+    }
+
+    #form-details form {
+        width: 50%;
+    }
 }
+
+
 
 /************Phone dimensions SMALL DEVICES*****************/
 
@@ -1015,6 +1027,32 @@ footer .copyright {
     }
     #about-app .video {
         width: 100%;
+    }
+
+     /************CONTACT PAGE***********/
+
+     #contact-details {
+        flex-direction: column;
+    }
+
+    #contact-details .details {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #contact-details .map {
+        width: 100%;
+    }
+
+    #form-details {
+        margin: 10px;
+        padding: 30px 10px;
+        flex-wrap: wrap;
+    }
+
+    #form-details form {
+        width: 100%;
+        margin-bottom: 30px;
     }
 }
 
